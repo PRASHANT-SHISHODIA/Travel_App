@@ -83,6 +83,9 @@ const CreateAccount = () => {
           />
         </View>
 
+
+
+
         {/* NEXT BUTTON */}
         <TouchableOpacity   onPress={()=>navigation.navigate('RideBookingPage')} style={styles.nextButton}>
           <Text style={styles.nextText}>Next</Text>
